@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../../store/cartSlice";
+import { addToCart } from "../../redux/store/cartSlice";
 import Modal from "../Modal/Modal";
 import Filter from "../Filter/Filter";
 
